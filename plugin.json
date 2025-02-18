@@ -1,0 +1,21 @@
+{
+    "fskey": "SsoClient",
+    "type": 1,
+    "name": "SsoClient",
+    "description": "SsoClient plugin made by mouyong",
+    "author": "Fresns",
+    "authorLink": "https://plugins-world.cn",
+    "version": "1.0.0",
+    "scene": [
+        "sso_update_userinfo_service"
+    ],
+    "accessPath": "/sso-client",
+    "settingsPath": "/sso-client/setting",
+    "providers": [
+        "Plugins\\SsoClient\\Providers\\SsoClientServiceProvider",
+        "Plugins\\SsoClient\\Providers\\CmdWordServiceProvider",
+        "Plugins\\SsoClient\\Providers\\ExceptionServiceProvider"
+    ],
+    "autoloadFiles": [],
+    "aliases": []
+}
